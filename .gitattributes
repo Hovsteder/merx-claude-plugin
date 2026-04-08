@@ -1,0 +1,7 @@
+# Make Markdown content count toward repo language detection -- the plugin
+# is mostly markdown (slash commands + agent system prompts) and we want
+# GitHub Linguist to recognize that.
+*.md linguist-detectable=true
+
+# Make sure install.sh is treated as Shell, not text
+install.sh linguist-language=Shell
