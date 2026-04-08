@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "merx": {
+      "type": "sse",
+      "url": "https://merx.exchange/mcp/sse"
+    }
+  }
+}

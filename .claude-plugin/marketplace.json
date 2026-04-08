@@ -1,0 +1,23 @@
+{
+  "name": "merx",
+  "owner": {
+    "name": "MERX",
+    "email": "team@merx.exchange",
+    "url": "https://merx.exchange"
+  },
+  "description": "MERX official Claude Code plugin marketplace. Installs the merx plugin which connects Claude to the MERX TRON infrastructure (64 MCP tools for energy market, TRC-20 stablecoin payments, x402 facilitation, and agent payment service).",
+  "plugins": [
+    {
+      "name": "merx",
+      "source": ".",
+      "description": "TRON infrastructure for AI agents on Claude Code. Auto-registers the hosted MERX MCP server (64 tools), adds slash commands for the most common operations (prices, buy energy, balance, tx lookup, send), and ships a tron-agent-engineer subagent specialized in building agentic payment workflows on TRON.",
+      "version": "1.0.0",
+      "author": {
+        "name": "MERX",
+        "url": "https://merx.exchange"
+      },
+      "category": "blockchain",
+      "tags": ["tron", "blockchain", "agent-payments", "x402", "energy", "stablecoins"]
+    }
+  ]
+}

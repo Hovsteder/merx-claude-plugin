@@ -1,0 +1,24 @@
+{
+  "name": "merx",
+  "version": "1.0.0",
+  "description": "TRON infrastructure layer for AI agents — 64-tool MCP server, energy market across 6 providers, USDT/USDC/USDD payments, x402 v2 facilitator. One-line install for Claude Code.",
+  "author": {
+    "name": "MERX",
+    "email": "team@merx.exchange",
+    "url": "https://merx.exchange"
+  },
+  "homepage": "https://merx.exchange",
+  "repository": "https://github.com/Hovsteder/merx-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "tron",
+    "tron-agents",
+    "blockchain",
+    "energy",
+    "usdt",
+    "stablecoin",
+    "x402",
+    "agent-payments",
+    "mcp"
+  ]
+}
