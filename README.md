@@ -3,7 +3,7 @@
 **TRON infrastructure for AI agents, in one Claude Code command.**
 
 This plugin connects Claude Code to the [MERX](https://merx.exchange)
-hosted MCP server (64 tools), adds slash commands for the most common
+hosted MCP server (66 tools), adds slash commands for the most common
 TRON operations, and ships a `tron-agent-engineer` subagent specialized
 in building agentic payment workflows on TRON.
 
@@ -21,7 +21,7 @@ After installing this plugin, your Claude Code session can:
 - **Use natural language** to create standing orders and resource automation through the MERX Policy Engine
 
 The hosted MCP server ([https://merx.exchange/mcp/sse](https://merx.exchange/mcp/sse))
-exposes 64 tools across 18 categories: pricing, estimation, trading,
+exposes 66 tools across 18 categories: pricing, estimation, trading,
 account, chain, network, tokens, contracts, DEX, onboarding, payments,
 intent, standing-orders, withdraw, policy, broadcast, agent-payments,
 and convenience helpers.
@@ -84,7 +84,7 @@ key never leaves your machine.
 This plugin is a thin wrapper. The actual heavy lifting happens in:
 
 1. **The hosted MCP server** at `https://merx.exchange/mcp/sse` —
-   64 tools, MCP protocol versions 2024-11-05 / 2025-03-26 / 2025-06-18
+   66 tools, MCP protocol versions 2024-11-05 / 2025-03-26 / 2025-06-18
 2. **The MERX REST API** at `https://merx.exchange/api/v1/` — 70+
    versioned endpoints
 3. **The MERX agent payment service** at `https://agent.merx.exchange/api/v1/agent/`
